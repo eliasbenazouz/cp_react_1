@@ -1,0 +1,36 @@
+.Header {  
+    position: sticky;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    top: 0;
+}  
+.Header img{
+    height: 100px;
+    }
+
+.Header a{
+    color: white;
+}
+
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.Navbar h2 {
+    padding: 0 2vh;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+@media screen and (max-width: 800px) {
+    .Navbar h2 {
+        font-size: 22px;
+    }
+}
+
